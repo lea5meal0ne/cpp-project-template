@@ -1,0 +1,30 @@
+# Build
+/build/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Clang
+.cache/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
